@@ -1,0 +1,68 @@
+.mTitulo{
+  @apply mt-6 text-2xl font-bold text-vino -md:mt-0
+}
+.mParrafo{
+  @apply px-4 font-medium text-gray-700 text-lg
+}
+.tituloH3{
+  @apply my-10 -md:my-5 text-6xl font-bold text-vino -md:text-4xl -md:font-black
+}
+.parrafoH3{
+  @apply text-lg font-medium text-gray-700 -md:text-base
+}
+.icoGroupModulos{
+  @apply flex md:items-baseline justify-between mt-12 -md:flex-col -md:mt-4 -md:gap-4
+}
+.articleGroupModulo{
+  @apply py-14 -md:py-5 -md:px-3
+}
+.cardGroup{
+  @apply  flex my-8 
+}
+.card{
+  @apply bg-white rounded-lg w-5/12
+}
+.lineaFondo{
+  @apply absolute z-0 w-11/12 h-1 rounded-full
+}
+.textoSobreLinea{
+  @apply absolute z-10 px-4 mx-4 text-lg -md:text-sm font-bold  uppercase bg-white
+}
+.grupoLineaTexto{
+  @apply relative flex items-center justify-center my-6
+}
+.planLista{
+  @apply font-medium text-gray-700
+}
+.triangulo{
+  margin: auto;  
+  width: 0;
+  height: 0;
+  border-left: 2rem solid transparent;
+  border-right: 2rem solid transparent;
+  margin-bottom: 1rem;
+}
+.trianguloBeta{
+  border-top: 2rem solid rgba(107, 114, 128, 1);
+}
+.trianguloSS{
+  border-top: 2rem solid #ab6060;
+}
+@media (max-width: 767px) {
+  :root{
+    font-size: 12px
+  }
+  
+}
+@media (min-width: 1440px) {
+  :root{
+    font-size: 20px
+  }
+  
+}
+@media (min-width: 2560px) {
+  :root{
+    font-size: 36px
+  }
+  
+}

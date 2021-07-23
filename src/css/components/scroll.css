@@ -1,0 +1,39 @@
+.scroll-none::-webkit-scrollbar{
+  display: none;
+  overflow: auto;
+}
+/* 
+.scroll{
+} */
+/* Tamaño del scroll */
+.scroll::-webkit-scrollbar {
+  overflow: auto;
+  width: 0.7rem;
+}
+
+ /* Estilos barra (thumb) de scroll */
+.scroll::-webkit-scrollbar-thumb {
+  background: #ab6060;
+  border-radius: 0.5rem;
+}
+
+.scroll::-webkit-scrollbar-thumb:active {
+  background-color: #633636;
+}
+
+.scroll::-webkit-scrollbar-thumb:hover {
+  background: #633636;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+ /* Estilos track de scroll */
+.scroll::-webkit-scrollbar-track {
+  background: hsl(0, 29%, 80%);
+  opacity: 0.4;
+  /* border-radius: 4px; */
+}
+
+.scroll::-webkit-scrollbar-track:hover, 
+.scroll::-webkit-scrollbar-track:active {
+  background: hsl(0, 29%, 70%);
+}

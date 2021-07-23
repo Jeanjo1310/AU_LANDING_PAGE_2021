@@ -1,0 +1,23 @@
+.bg-img-intro{
+  background-image: url(assets/bgHeader.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg-trama{
+  background-image: url(assets/bgTrama.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.bg-mision{
+  background-image: url(assets/bgMision.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.bg-vision{
+  background-image: url(assets/bgVision.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
